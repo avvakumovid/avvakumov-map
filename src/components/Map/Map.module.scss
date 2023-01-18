@@ -1,0 +1,30 @@
+.popup {
+    position: relative;
+
+    .close {
+        position: absolute;
+        right: 5px;
+        top: 5px;
+        border: 0;
+        background-color: transparent;
+    }
+
+    .content {
+
+        font-size: 12px;
+        padding: 5px 15px;
+        text-align: start;
+        border-radius: 10px;
+        background-color: #121212;
+        color: #fff;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        flex-direction: column;
+        line-height: 1em;
+    }
+}
+
+.routes {
+    overflow: hidden;
+}
