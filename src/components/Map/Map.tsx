@@ -10,7 +10,7 @@ import VectorLayer from 'ol/layer/Vector';
 import { Feature } from 'ol';
 import VectorSource from 'ol/source/Vector';
 import { LineString, Geometry } from 'ol/geom';
-import { Circle as CircleStyle, Fill, Icon, Stroke, Style } from 'ol/style.js';
+import { Circle as CircleStyle, Fill, Stroke, Style } from 'ol/style.js';
 import Overlay from 'ol/Overlay';
 import Routes from '../routes/Routes';
 import {
@@ -18,7 +18,6 @@ import {
   useLazyGetRouteByIdQuery,
 } from '../../store/services/mapApi';
 import { Route, RouteData } from '../../types';
-import { Coordinate } from 'ol/coordinate';
 import { toast } from 'react-toastify';
 import { fromLonLat } from 'ol/proj.js';
 const Map = () => {
